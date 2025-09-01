@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Feb  5 15:55:08 2024
-
-@author: Admin
-"""
-
-
 from bs4 import BeautifulSoup
 import requests
 
@@ -392,6 +384,7 @@ for link in range (100):
         data['SYLLABLE PER WORD'][link]=avg_syllable_count
         data['PERSONAL PRONOUNS'][link]=personal_pernouns_count
         data['AVG WORD LENGTH'][link]=avg_word_length
+
 
 
 
